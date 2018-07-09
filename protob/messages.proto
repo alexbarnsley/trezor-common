@@ -172,4 +172,12 @@ enum MessageType {
     MessageType_CardanoAddress = 308 [(wire_out) = true];
     MessageType_CardanoTxAck = 309 [(wire_in) = true];
     MessageType_CardanoSignedTransaction = 310 [(wire_out) = true];
+
+    // Ark
+    MessageType_ArkGetAddress = 231 [(wire_in) = true];
+    MessageType_ArkAddress = 232 [(wire_out) = true];
+    MessageType_ArkSignTx = 233 [(wire_in) = true];
+    MessageType_ArkSignedTx = 234 [(wire_out) = true];
+    MessageType_ArkGetPublicKey = 235 [(wire_in) = true];
+    MessageType_ArkPublicKey = 236 [(wire_out) = true];
 }
