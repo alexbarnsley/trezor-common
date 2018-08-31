@@ -121,17 +121,6 @@ enum MessageType {
     MessageType_NEMDecryptMessage = 75 [(wire_in) = true];
     MessageType_NEMDecryptedMessage = 76 [(wire_out) = true];
 
-    // Ark
-    MessageType_ArkGetAddress = 77 [(wire_in) = true];
-    MessageType_ArkAddress = 78 [(wire_out) = true];
-    MessageType_ArkSignTx = 79 [(wire_in) = true];
-    MessageType_ArkSignedTx = 80 [(wire_out) = true];
-    MessageType_ArkSignMessage = 81 [(wire_in) = true];
-    MessageType_ArkMessageSignature = 82 [(wire_out) = true];
-    MessageType_ArkVerifyMessage = 83 [(wire_in) = true];
-    MessageType_ArkGetPublicKey = 84 [(wire_in) = true];
-    MessageType_ArkPublicKey = 85 [(wire_out) = true];
-
     // Lisk
     MessageType_LiskGetAddress = 114 [(wire_in) = true];
     MessageType_LiskAddress = 115 [(wire_out) = true];
@@ -226,4 +215,15 @@ enum MessageType {
     MessageType_MoneroWatchKey = 533 [(wire_out) = true];
     MessageType_DebugMoneroDiagRequest = 536 [(wire_in) = true];
     MessageType_DebugMoneroDiagAck = 537 [(wire_out) = true];
+
+    // Ark
+    MessageType_ArkGetAddress = 600 [(wire_in) = true];
+    MessageType_ArkAddress = 601 [(wire_out) = true];
+    MessageType_ArkSignTx = 602 [(wire_in) = true];
+    MessageType_ArkSignedTx = 603 [(wire_out) = true];
+    MessageType_ArkSignMessage = 604 [(wire_in) = true];
+    MessageType_ArkMessageSignature = 605 [(wire_out) = true];
+    MessageType_ArkVerifyMessage = 606 [(wire_in) = true];
+    MessageType_ArkGetPublicKey = 607 [(wire_in) = true];
+    MessageType_ArkPublicKey = 608 [(wire_out) = true];
 }
