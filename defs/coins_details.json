@@ -12873,6 +12873,17 @@
             "t2_enabled": "soon",
             "type": "coin"
         },
+        "misc:ARK": {
+            "links": {
+                "Homepage": "https://ark.io/"
+            },
+            "marketcap_usd": 95026144,
+            "name": "Ark",
+            "shortcut": "ARK",
+            "t1_enabled": "no",
+            "t2_enabled": "yes",
+            "type": "coin"
+        },
         "misc:LSK": {
             "links": {
                 "Homepage": "https://lisk.io/"

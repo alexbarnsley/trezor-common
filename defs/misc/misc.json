@@ -1,5 +1,13 @@
 [
     {
+        "name": "Ark",
+        "shortcut": "ARK",
+        "slip44": 111,
+        "links": {
+            "Homepage": "https://ark.io/"
+        }
+    },
+    {
         "name": "Lisk",
         "shortcut": "LSK",
         "slip44": 134,
